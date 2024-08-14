@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/pngtree-landscape-landscape-photo-image_2902263.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Roboto Condensed", sans-serif;
+    backdrop-filter: blur(5px);
+}
+/* .box {
+    width: 100%; 
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.63);
+} */
+.box .box1 {
+    width: 400px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 10px 10px 0;
+}
+.box .center {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box .flex {
+    display: flex;
+}
+.box .box2 {
+    width: 400px;
+    height: 450px;
+    background:linear-gradient(#51ed2e,#aefd99);
+    border-radius: 10px 0 0 10px;
+}
+.box .headtxt {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.box .headtxt .h-1 {
+    font-weight: 600px;
+}
+.box .box1 .icon {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+/* .box .box1 .icon .allicon {
+    margin-left: 10px;
+} */
+.box .box1 .icon .icon1  {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.429);
+    color: black;
+}
+.box .box1 .icon .icon2  {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    text-decoration: none;
+    padding: 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.429);
+    color: black;
+}
+.box .box1 .icon .icon3  {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    text-decoration: none;
+    padding: 10px 13px;
+    border: 1px solid rgba(0, 0, 0, 0.429);
+    color: black;
+    font-size: 18px;
+}
+.box .box1 .icon .allicon .txt1 {
+    margin-top: 30px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+}
+
+/* form in table */
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+input {
+    background-color:#e8e8e8;
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid #e8e8e8;
+    margin-bottom: 10px;
+}
+input:focus {
+    border: 2px solid black;
+}
+/* end */
+
+.box .box1 .txt-password {
+    display: flex;
+    justify-content: center;
+}
+.box .box1 .txt-password .txt2 {
+    margin-top: 10px;
+    font-size: 13px;
+}
+.box .box1 .buttun {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.box .box1 .buttun .link-buttun {
+    padding: 10px;
+    width: 150px;
+    background-color: #7cf75f;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.box .box1 .buttun .link-buttun:hover {
+    background-color: #51ed2e;
+}
+
+/* box2 */
+.box2 .txt .h-2 {
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+}
+.box2 .txt .txt3 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 100;
+    text-align: justify;
+    color: white;
+}
+.box2 .buttun2 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.box2 .buttun2 .link-buttun2 {
+    border: 2px solid white;
+    padding: 8px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #7cf75f;
+}
+.box2 .buttun2 .link-buttun2:hover {
+    background-color: #aefd99;
+}
